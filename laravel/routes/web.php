@@ -11,6 +11,9 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+
+Auth::routes();
 Route::get('/', 'ArticleController@index');
 
 // Route::get('/', function () {
